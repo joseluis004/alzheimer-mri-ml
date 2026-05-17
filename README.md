@@ -158,7 +158,7 @@ La búsqueda de hiperparámetros se realiza con `GridSearchCV` y validación cru
 
 ---
 
-### [4. Análisis de hiperparámetros y clasificación MCI vs AD](https://github.com/joseluis004/alzheimer-mri-ml/blob/main/Analisis%20hiperpar%C3%A1metros%20y%20clasificaci%C3%B3n%20MCI%20vs%20AD.ipynb)
+### [4. Análisis de hiperparámetros y clasificación MCI vs AD](https://github.com/joseluis004/alzheimer-mri-ml/blob/main/Analisis%20hiperpar%C3%A1metros%20y%20clasificaci%C3%B3n%20MCI%20vs%20AD/Analisis_hiperparámetros_y_clasificación_MCI_vs_AD.ipynb)
 
 Aplica las ROIs seleccionadas en el notebook anterior al problema más difícil del espectro: la separación entre **MCI** (EMCI + LMCI) y **AD**. El notebook se estructura en tres bloques:
 
