@@ -26,7 +26,6 @@ Los datos empleados proceden de la base de datos pública **ADNI (Alzheimer's Di
   - [Docker — HeudiConv](#docker--heudiconv-notebook-1)
   - [Docker — fMRIPrep](#docker--fmriprep-preprocesado-de-imágenes)
 - [Datos y licencia ADNI](#datos-y-licencia-adni)
-- [Referencia](#referencia)
 
 ---
 
