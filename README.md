@@ -121,7 +121,7 @@ El proceso se automatiza mediante **HeudiConv** ejecutado sobre Docker:
 
 ---
 
-### [2. Extracción de características](https://github.com/joseluis004/alzheimer-mri-ml/blob/main/Extraccion%20características/Extraccion%20características.ipynb)
+### [2. Extracción de características](https://github.com/joseluis004/alzheimer-mri-ml/blob/main/Extracción%20características/Extracción%20características.ipynb)
 
 Extrae los biomarcadores morfométricos cerebrales a partir de las salidas de **fMRIPrep** y **FreeSurfer**. Contiene cuatro pipelines de extracción independientes que generan un CSV por grupo (`AD`, `EMCI`, `LMCI`, `CN`) y sexo (`m`, `f`):
 
