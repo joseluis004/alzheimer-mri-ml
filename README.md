@@ -262,18 +262,17 @@ docker images | findstr fmriprep
 El comando empleado para el preprocesado de cada grupo fue el siguiente (sustituir `XXXSXXXX` por los identificadores reales de los sujetos y ajustar las rutas locales):
 
 ```bash
-docker run --rm \
-  -v "D:\ALZHEIMER3\BIDS_MCI_F_MRI:/data:ro" \
-  -v "\\wsl.localhost\Ubuntu\home\joselito\FMRIPREP_MCI_f_MRI:/out" \
-  -v "D:\license.txt:/opt/freesurfer/license.txt" \
-  nipreps/fmriprep:latest /data /out participant \
-  --participant-label XXXSXXXX XXXSXXXX XXXSXXXX XXXSXXXX XXXSXXXX \
-  --anat-only \
-  --fs-license-file /opt/freesurfer/license.txt \
-  --output-spaces MNI152NLin2009cAsym \
-  --nthreads 24 \
-  --omp-nthreads 4 \
-  --mem 26000
+docker run --rm -v "/ruta/datos/BIDS_dataset:/data:ro" 
+-v "/ruta/salida/fmriprep_output:/out" 
+-v "/ruta/license_freesurfer/license.txt:/opt/freesurfer/license.txt" 
+nipreps/fmriprep:latest /data /out participant 
+--participant-label sub-001 sub-002 sub-003 sub-004 sub-005 
+--anat-only 
+--fs-license-file /opt/freesurfer/license.txt 
+--output-spaces MNI152NLin2009cAsym 
+--nthreads 24 
+--omp-nthreads 4 
+--mem 26000
 ```
 
 Los parámetros clave del comando son:
