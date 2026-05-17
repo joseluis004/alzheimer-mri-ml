@@ -296,7 +296,7 @@ Los datos empleados en este estudio proceden de **ADNI (Alzheimer's Disease Neur
 
 El acceso a los datos requiere registro y aprobación en 🔗 [https://adni.loni.usc.edu](https://adni.loni.usc.edu)
 
-Los términos completos del acuerdo de uso están disponibles en [`ADNI Data Use Agreement/`](./ADNI%20Data%20Use%20Agreement/). Entre las restricciones principales:
+Los términos completos del acuerdo de uso están disponibles en [`ADNI Data Use Agreement/`](./ADNI%20Data%20Use%20Agreement/ADNI_Data_Use_Agreement.pdf). Entre las restricciones principales:
 
 - Prohibida la redistribución de imágenes de pacientes
 - Prohibida la publicación de datasets completos
