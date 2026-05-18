@@ -207,7 +207,7 @@ Los atlas están disponibles públicamente como parte de **FSL (FMRIB Software L
 
 Las librerías empleadas y su versión:
 
-| Librería | Varsión |
+| Librería | Versión |
 |---|---|
 | `nibabel` | 5.3.3 |
 | `nilearn` | 0.12.1 |
