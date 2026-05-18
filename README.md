@@ -293,7 +293,7 @@ Los parámetros clave del comando son:
 
 Los datos empleados en este estudio proceden de **ADNI (Alzheimer's Disease Neuroimaging Initiative)**, un consorcio público-privado financiado por el National Institute on Aging, el National Institute of Biomedical Imaging and Bioengineering y compañías farmacéuticas y empresas de diagnóstico por imagen.
 
-El acceso a los datos requiere registro y aprobación en 🔗 [https://adni.loni.usc.edu](https://adni.loni.usc.edu)
+El acceso a los datos requiere registro y aprobación en [https://adni.loni.usc.edu](https://adni.loni.usc.edu)
 
 Los términos completos del acuerdo de uso están disponibles en [`ADNI Data Use Agreement/`](./ADNI%20Data%20Use%20Agreement/ADNI_Data_Use_Agreement.pdf). Entre las restricciones principales:
 
